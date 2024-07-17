@@ -1,3 +1,9 @@
+var _ = require("lodash");
+
+let anArray = [1, 2, 3, 4, 5, 6, 7];
+console.log(anArray);
+console.log("answer: ", _.without(anArray, 4));
+
 let css = document.querySelector("h3");
 let color1 = document.querySelector(".color1");
 let color2 = document.querySelector(".color2");
